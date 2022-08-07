@@ -1,0 +1,347 @@
+*{
+    /* border: 1px solid rgb(184, 184, 184); */
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: sans-serif;
+}
+hr {
+    height: 2px;
+    background-color: grey;
+}
+header {
+    font-weight: bold;
+}
+
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    /* align-content: center; */
+    margin-bottom: 2px;
+    padding: 0px 30px;
+    /* padding-left: 20px; */
+    box-shadow: 0px 4px 2px rgb(214, 214, 214);
+}
+.tl{
+    height: fit-content;
+    margin: auto;
+}
+.header-2 {
+    display: flex;
+    justify-content: center;
+}
+#humb-x{
+    display: none;
+}
+.but {
+    height: 20px;
+    padding: 8px 15px;
+    margin: 10px 20px 10px 20px;
+    border-radius: 15px;
+    color: white;
+    align-self: center;
+    background-color: darkorange;
+    outline: none;
+    box-shadow: 2px 2px 2px rgb(214, 214, 214);
+}
+
+.but-1 {
+    width: 60px;
+    height: 20px;
+    padding: 8px 15px;
+    color: white;
+    background-color: darkorange;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.but:hover {
+    background-color: grey;
+}
+.but-1:hover {
+    background-color: grey;
+}
+/* generalsssssssssssssssss */
+.box-flex {
+    display: flex;
+    justify-content: center;
+}
+
+.no-list{
+    list-style: none;
+}
+nav {
+    margin: 5px 30px 5px 30px;
+    color: rgb(10, 10, 129);
+}
+
+
+/* ----------------------------- */
+.li-nav {
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0px 1vw;
+}
+
+.li-nav:hover {
+    /* background-color: grey;
+    color: white; */
+    color: darkorange;
+}
+
+.li-nav-deffault {
+    color: darkorange;
+}
+
+.section-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.13),black), 
+                url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.part {
+    color: rgb(247, 147, 26);
+}
+.h1 {
+    color: white;
+    font-weight: bold;
+}
+.parag-white {
+    color: white;
+}
+.logi{
+    background-color: rgba(0, 0, 0, 0.473);
+    padding: 10%;
+    border-radius: 10px;
+}
+.divis {
+    display: flex;
+    width: 80vw;
+    /* justify-content: center;
+    align-content: center; */
+}
+.div-1 {
+    margin: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+
+.div-2 {
+    margin: 10px;
+    width: 40%;
+
+}
+.top-el-form {
+    background-color: white;
+    color: darkorange;
+    text-align: center;
+    padding: 4px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.entry {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    outline-color: none;
+    caret-color: red;
+    padding: 10px;
+    /* padding: 0px 10px 0px 10px; */
+    border-bottom: 1px solid darkorange;
+    background-color: transparent;
+}
+.entry::placeholder {
+    color: rgba(255, 255, 255, 0.74);
+}
+.h {
+    position: relative;
+}
+
+#dtyp {
+    border-right: 2px solid white;
+    /* padding: 2px 0px; */
+    margin-left: 2px;
+    width: 150px;
+    position: absolute;
+    top: 1.25em;
+    left: 2em;
+    overflow: hidden;
+    animation: manageanim 2s alternate infinite;
+}
+
+@keyframes manageanim{
+    0%{
+        width: 0px;
+    }
+    80%, 100%{
+        width: 150px;
+    }
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+.but-2{
+    background-color: darkorange;
+    color: white;
+    border: none;
+    height: auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.but-2:hover {
+    background-color: grey;
+}
+.center-parag{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.pad {
+    margin: 0px auto;
+}
+.cvx{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.pied-1{
+    display: flex;
+    /* position: absolute;
+    bottom: 30px;
+    left: 10%; */
+    padding: 2% 10%;
+    margin-bottom: 2%;
+
+}
+.p-par {
+    align-self: center;
+    margin: 8px;
+}
+.top-pad{
+    padding-top: 5%;
+}
+.tex {
+    margin-right: 10%;
+}
+.curs {
+    cursor: pointer;
+}
+.od{
+    display: flex;
+    justify-content: center;
+}
+.dim {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img-1{
+    background: url(../images/tysh.png) 200px/cover;
+}
+.img-2{
+    background: url(../images/glo.jpg) 200px/cover;  
+}
+
+.hr-x{
+    margin: 0% 18%;
+}
+.header-3 {
+    padding: 20px;
+}
+
+.b-f{
+    margin: 5% 10%;
+}
+.ddd{
+    border-radius: 20px;
+    /* background-color: rgba(0, 0, 0, 0.788); */
+    /* color: white; */
+    /* color: black; */
+}
+.col-w{
+    color: white;
+}
+footer {
+    padding: 2%;
+    /* background-color: rgb(184, 184, 184); */
+    /* height: 40vh; */
+    padding: 6% 10%;
+    background: linear-gradient(rgba(0, 0, 0, 0.13),black), 
+                url(../images/bg2-1.jpg);
+                background-position: center;
+                background-size: cover;
+                /* background-repeat: no-repeat; */
+}
+footer p,footer ul, footer h2{
+    color: white;
+    font-size: .7em;
+}
+footer .x h3 {
+    color: darkorange;
+}
+.v{
+    font-weight: normal;
+}
+.vx{
+    padding-left: 4px;
+}
+.inl{
+    display: inline;
+}
+.box-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.h2 {
+    text-align: center;
+    font-size: 2.8em;
+    font-weight: bold;
+}
+.slog {
+    padding: 0% 15%;
+    color: white;
+}
+.slog hr {
+    height: 0px;
+    border-top: none;
+    /* background-color: darkorange; */
+    border-bottom: 1px solid darkorange;
+}
+
+.li-e{
+    list-style: none;
+}
+.cont-1{
+    justify-content: space-around;
+}
+.center-text{
+    text-align: center;
+}
+.col-text {
+    background-color: darkorange;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.box-flex1{
+    display: flex;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.945);
+}
+.xbx{
+    margin: 0% 20px;
+}

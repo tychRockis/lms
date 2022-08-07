@@ -1,0 +1,81 @@
+
+/* ipad air */
+@media screen and (max-width: 280px) {
+    
+}
+
+/* ipad air */
+@media screen and (max-width: 912px) {
+    .section-1{
+        /* height: 40vh; */
+    }
+}
+
+
+/* iphone SE */
+@media screen and (max-width: 564px){
+    .header-1{
+        flex-direction: column;
+        /* justify-content: center; */
+    }
+    .log-div{
+        display: flex;
+        justify-content: center;
+    }
+    .box-flex{
+        flex-direction: column;
+    }
+    .cach-nav{
+        display: none;
+    }
+    .header-2{
+        padding: 20px;
+        position: relative;
+    }
+    #humb-x{
+        display: block;
+        position: absolute;
+        right: 5%;
+        top: 5px;
+        
+    }
+    .humb{
+        width: 40px;
+        height: 40px;
+        background: url(../images/menu.png) center/cover;
+    }
+    .divis{
+        flex-direction: column;
+    }
+    .section-1 {
+        /* height: 130vh; */
+        padding: 0% 5%;
+    }
+    .pied-1{
+        /* display: flex; */
+        justify-content: center; 
+    }
+    .box-flex1{
+        flex-direction: column;
+    }
+
+    .text-a{
+        text-align: center;
+    }
+    .ic{
+        display: flex;
+        justify-content: center;
+    }
+
+    .ix-x{
+        margin: 0 4%;
+    }
+    
+    .div-2{
+        width: auto;
+    }
+    
+    /* .xbx {
+        margin: 0% 20;
+    } */
+}
